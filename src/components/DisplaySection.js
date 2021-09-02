@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import WeatherCard from "./WeatherCard";
 import "../styles/DisplaySection.css";
 

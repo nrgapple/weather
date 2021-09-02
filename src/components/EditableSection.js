@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/EditableSection.css";
 import DatePicker from "./DatePicker.js";
 import TextField from "./TextField.js";

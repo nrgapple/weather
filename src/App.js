@@ -18,11 +18,11 @@ const App = () => {
   );
   const filteredData = useFilter(startDate, endDate, location, weatherData);
 
-  console.log(filteredData);
-
   return (
     <div className="App">
-      {error && <text>There was an error loading the data: {error}</text>}
+      <div style={{ color: "red" }}>
+        {error && <div>There was an error loading the data: {error}</div>}
+      </div>
       <EditableSection
         startDate={startDate}
         endDate={endDate}

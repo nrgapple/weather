@@ -7,6 +7,6 @@ export const weatherJsonFetcher = async (url) => {
     }
   } catch (e) {
     console.error(e);
-    return { data: [], error: e };
+    return { data: [], error: e.message };
   }
 };
